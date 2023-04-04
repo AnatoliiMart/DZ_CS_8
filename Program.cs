@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-           
+            //Ex1();
+            //Ex2();
+            //Ex3();
         }
        static void Ex1()
         {
@@ -34,7 +36,7 @@
             numericSystems.ToOctal();
             numericSystems.ToHex();
         }
-        void Ex3()
+        static void Ex3()
         {
             RGBConvert rGBConvert = new RGBConvert(255, 255, 255);
             rGBConvert.ToHEX();
